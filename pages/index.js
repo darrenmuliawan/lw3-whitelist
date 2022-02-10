@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react'
 import { providers, Contract } from 'ethers';
 import Web3Modal from 'web3modal';
 import styles from '../styles/Home.module.css'
-import { whitelistAbi, contractAddress } from './constants';
+import { whitelistAbi, contractAddress } from '../constants';
 
 export default function Home() {
   const [walletConnected, setWalletConnected] = useState(false);
